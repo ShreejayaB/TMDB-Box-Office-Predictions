@@ -34,7 +34,7 @@ Process
 Summary 
 ----
 For our problem statement we chose a baseline model as a linear model (Ridge Regression)<br>
-We fit the following models to our data:
+We fit the following models to our data:<br>
 	1. Ridge Regression<br>
 	2. KNeighboursRegressor<br>
 	3. BayesianRidge<br>
