@@ -63,11 +63,13 @@ git clone https://github.com/ShreejayaB/TMDB-Box-Office-Predictions
 ```
 ### 2) Creating Virtual Environment
 * Run the following command to create the virtual environment named 'tmdb_box_office_pred_ml':
+```
 conda env create -f tmdb_box_office_pred_venv.yml -n tmdb_box_office_pred_ml
+```
 * Activate this virtual environment with the following command:
 ```
 conda activate tmdb_box_office_pred_ml
 ```
 
 ### 3) Start IPython
-Start the IPython notebook server from the root directory, with the 'jupyter notebook' command.
+Start the IPython notebook server from the root directory, with the ```'jupyter notebook'``` command.
