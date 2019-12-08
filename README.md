@@ -42,9 +42,9 @@ We fit the following models to our data:<br>
 5. XGBoost
 
 Out of these models, we observed that RandomForest model performs the best - <br>
-1. MedAE score(in million$) - 15.02<br>
-2. R2 score - 0.73<br>
-3. RMSLE - 2.66<br>
+1. MedAE score(in million$) - 17<br>
+2. R2 score - 0.74<br>
+3. RMSLE - 1.87<br>
 
 #### Takeaways:
 1. Difficult to accurately predict the movie’s box office performance because of various missing data points such as:<br>
