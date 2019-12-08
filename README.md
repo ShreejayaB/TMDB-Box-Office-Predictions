@@ -1,7 +1,7 @@
 <center><h1>TMDB Box Office Revenue Predictions</h1></center>
 
 
-----
+
 Description
 ----
 
@@ -15,12 +15,12 @@ Contributors:
 - [Aakanksha](https://github.com/aakanksha-ns)
 - [Shreejaya](https://github.com/ShreejayaB)
 
-----
+
 Goal
 ----
 The goal of our project was to predict the revenue of movies at the box office.
 
-----
+
 Process
 ----
 
@@ -30,7 +30,7 @@ Process
 4. Evaluating the models using relevant metrics and defining a North Star metric.
 5. Choosing the best model and visually inspecting our results. 
 
-----
+
 Summary 
 ----
 For our problem statement we chose a baseline model as a linear model (Ridge Regression)<br>
