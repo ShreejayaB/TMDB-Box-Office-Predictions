@@ -42,16 +42,16 @@ We fit the following models to our data:<br>
 5. XGBoost
 
 Out of these models, we observed that RandomForest model performs the best - <br>
-1. MedAE score(in million$) - 17<br>
+1. MedAE score(in million$) - 17<br> (North Star metric)
 2. R2 score - 0.74<br>
 3. RMSLE - 1.87<br>
 
 #### Takeaways:
-1. Difficult to accurately predict the movie’s box office performance because of various missing data points such as:<br>
+1. 'Budget' of the movie is the most important predictor as per permutation feature importance, which makes a lot of sense with respect to the business implications. 
+2. Difficult to accurately predict the movie’s box office performance because of various missing data points such as:<br>
 	* Overall economy at the time of the movie release<br>
 	* Quality of the movie’s plot and other exogenous factors<br>
 	* Presence of streaming service like Amazon Prime, Netflix etc.<br>
-2. Log transforming the response (Revenue) might help.
 
 
 In order to run our notebook and reproduce the results, the following steps can be followed:
@@ -72,4 +72,4 @@ conda activate tmdb_box_office_pred_ml
 ```
 
 ### 3) Start IPython
-Start the IPython notebook server from the root directory, with the ```'jupyter notebook'``` command.
+Start the IPython notebook server from the root directory, with the ```jupyter notebook``` command.
