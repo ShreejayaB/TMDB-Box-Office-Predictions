@@ -1,4 +1,4 @@
-<center><h2>TMDB Box Office Revenue Predictions</h2></center>
+<center><h1>TMDB Box Office Revenue Predictions</h1></center>
 
 
 ----
