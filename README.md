@@ -48,13 +48,13 @@ Out of these models, we observed that RandomForest model performs the best - <br
 
 In order to run our notebook and reproduce the results, the following steps can be followed:
 
-###1) Setup
+### 1) Setup
 Clone the repository using the given link: https://github.com/aakanksha-ns/ml_lab_project_box_office_revenue.git
-###2) Creating Virtual Environment
+### 2) Creating Virtual Environment
 * Run the following command to create the virtual environment named 'tmdb_box_office_pred_ml':
 conda env create -f tmdb_box_office_pred_venv.yml -n tmdb_box_office_pred_ml
 * Activate this virtual environment with the following command:
 conda activate tmdb_box_office_pred_ml
 
-###3) Start IPython
+### 3) Start IPython
 Start the IPython notebook server from the root directory, with the 'jupyter notebook' command.
