@@ -35,16 +35,16 @@ Summary
 ----
 For our problem statement we chose a baseline model as a linear model (Ridge Regression)<br>
 We fit the following models to our data:<br>
-	1. Ridge Regression<br>
-	2. KNeighboursRegressor<br>
-	3. BayesianRidge<br>
-	4. RandomForestRegressor<br>
-	5. XGBoost<br>
+1. Ridge Regression
+2. KNeighboursRegressor
+3. BayesianRidge
+4. RandomForestRegressor
+5. XGBoost
 
 Out of these models, we observed that RandomForest model performs the best - <br>
-	1. MedAE score(in million$) - 15.02<br>
-	2. R2 score - 0.73<br>
-	3. RMSLE - 2.66<br>
+1. MedAE score(in million$) - 15.02<br>
+2. R2 score - 0.73<br>
+3. RMSLE - 2.66<br>
 
 In order to run our notebook and reproduce the results, the following steps can be followed:
 
