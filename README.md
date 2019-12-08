@@ -42,9 +42,9 @@ We fit the following models to our data:
 	5. XGBoost
 
 Out of these models, we observed that RandomForest model performs the best - 
-	* MedAE score(in million$) - 15.02 
-	* R2 score - 0.73
-	* RMSLE - 2.66
+	1. MedAE score(in million$) - 15.02
+	2. R2 score - 0.73
+	3. RMSLE - 2.66
 
 In order to run our notebook and reproduce the results, the following steps can be followed:
 
